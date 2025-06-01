@@ -1,0 +1,12 @@
+name: ArrowTrails
+main: petterim1.arrowtrails.ATmain
+version: "${pom.version}"
+api: ["1.0.9"]
+author: PetteriM1
+load: STARTUP
+description: Arrow trails plugin for Nukkit
+
+permissions:
+  arrowtrails.command:
+    description: "Permission for /arrowtrails command"
+    default: op
